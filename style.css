@@ -16,11 +16,6 @@ body {
     align-items: center;
 }
 
-.servo-image {
-    width: 40px; /* Set the width to half of the original size */
-    height: auto; /* Maintain aspect ratio */
-}
-
 .slider-container {
     margin-top: 20px;
 }
