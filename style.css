@@ -17,7 +17,7 @@ body {
 }
 
 .servo-image {
-    width: 150px; /* Adjust the width of the servo motor image */
+    width: 75px; /* Set the width to half of the original size */
     height: auto; /* Maintain aspect ratio */
 }
 
