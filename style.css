@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.servo-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Space between servo motor controls */
+}
+
+.servo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servo-image {
+    width: 150px; /* Adjust the width of the servo motor image */
+}
+
+.slider-container {
+    margin-top: 20px;
+}
+
+.slider {
+    width: 200px; /* Width of the slider */
+}
+
+.slider-value {
+    margin-top: 10px;
+    font-size: 18px;
+}
