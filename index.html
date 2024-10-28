@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servo Motor Control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Servo Motor Control</h1>
+    
+    <div class="servo-container">
+        <div class="servo">
+            <img src="servo-motor.png" alt="Servo Motor" class="servo-image">
+            <div class="slider-container">
+                <input type="range" min="0" max="180" value="90" class="slider" id="servo1">
+                <span class="slider-value" id="servo1Value">90°</span>
+            </div>
+        </div>
+        
+        <div class="servo">
+            <img src="servo-motor.png" alt="Servo Motor" class="servo-image">
+            <div class="slider-container">
+                <input type="range" min="0" max="180" value="90" class="slider" id="servo2">
+                <span class="slider-value" id="servo2Value">90°</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
